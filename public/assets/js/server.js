@@ -8,7 +8,7 @@ app.use(express.static('public')); //use whatever i put inside parenthesis. the 
 
 app.get('/', (req, res) => res.send("This shows up on the page/possible files that can b displayed"));
 
-app.get('/api/index', (req, res) => res.json(indexData)); //might delete jung said this was the HW
+app.get('/api/terms', (req, res) => res.json(indexData)); //might delete jung said this was the HW/ sendin indexdate back as a json
 
 
 app.listen(PORT, () =>

@@ -3,6 +3,14 @@ let noteText;
 let saveNoteBtn;
 let newNoteBtn;
 let noteList;
+                                                            //this is the index file connected the the client/frontend
+const getTerms = async () => {
+  const result = await fetch('/api/terms', {        
+    method: 'GET',                              //might delete later might change to post 
+  })
+  const json = await result.json();
+  return json;
+}
 
 if (window.location.pathname === '/notes') {
   noteTitle = document.querySelector('.note-title');
@@ -79,7 +87,7 @@ const handleNoteSave = () => {
 
 // Delete the clicked note
 const handleNoteDelete = (e) => {
-  // Prevents the click listener for the list from being called when the button inside of it is clicked
+  // Prevents the click listener for the list from being called when the button inside of it is clicked   MIGHT NEED TO ADD A FETCH/DELETE CALL
   e.stopPropagation();
 
   const note = e.target;
