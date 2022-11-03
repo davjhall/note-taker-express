@@ -15,8 +15,7 @@ This application allows the user to be able to write and save notes so that they
 
 ## Installation
 
-What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
-
+I installed this project by first running npm install. I then created the necessary files needed to organized my code, such as db.json and package.json. I follwed that up by created my api routes to connect my files.
 ## Usage
 /SCREENSHOT
 
