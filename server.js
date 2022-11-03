@@ -47,7 +47,7 @@ app.get("/", function (req, res) {
 
 
 
-app.listen(PORT, function () {
+app.listen(process.env.PORT || PORT, function () {
 console.log('listening at PORT: '+ PORT);
 console.log('http://localhost:' + PORT); 
 });
