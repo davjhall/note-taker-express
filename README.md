@@ -3,7 +3,7 @@
 
 ## Description
 
-This application allows the user to be able to write and save notes so that they can organize their thoughts and keep track of tasks they need to complete throughout their day.
+This is a simple application that allows the user to be able to write and save notes so that they can organize their thoughts and keep track of tasks they need to complete throughout their day.
 
 ## Table of Contents
 
