@@ -15,7 +15,7 @@ This application allows the user to be able to write and save notes so that they
 
 ## Installation
 
-I installed this project by first running npm install. I then created the necessary files needed to organized my code, such as db.json and package.json. I follwed that up by created my api routes to connect my files.
+I installed this project by first running npm install in my command line. I then created the necessary files needed to organized my code, such as db.json and package.json. I follwed that up by creating my API routes to connect my files.
 ## Usage
 
 ![Shot 1](/images/Screenshot%20(76).png)
